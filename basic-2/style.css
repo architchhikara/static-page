@@ -1,0 +1,173 @@
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  /* background: white;
+  background-color: rgb(255, 255, 255); */
+}
+.style-heading-caps {
+  line-height: 1.57143;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+.section-padding {
+  display: block;
+  padding: 0 16px;
+  width: auto;
+}
+
+ul.no-bullet {
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  justify-content: center;
+  clear: none;
+  height: 50%;
+  margin: 1%;
+}
+.nav-items {
+  color: #5f6368;
+  font-family: Product Sans, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  float: left;
+  height: 100%;
+  margin-left: 36px;
+  position: relative;
+  width: auto;
+}
+li:hover {
+  color: black;
+}
+.line {
+  background: #dadce0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 51px;
+}
+
+.site-content {
+  display: block;
+  padding: 0 16px;
+  width: auto;
+}
+.padding-extra {
+  padding-bottom: 3%;
+}
+
+.featured-article {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.featured-image {
+  width: 100%;
+  grid-column-start: auto 1;
+  border-radius: 3%;
+}
+.featured-pad {
+  margin-left: 20px;
+}
+.featured-heading {
+  grid-column-start: auto 2;
+  font-size: 44px;
+  letter-spacing: -0.5px;
+}
+.featured-subtext {
+  padding-top: 5%;
+  color: #414141;
+  line-height: 1.66667;
+  font-size: 18px;
+  letter-spacing: 0;
+  flex-grow: 1;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.blog-article {
+  grid-auto-flow: column;
+  width: 93%;
+  margin: 3%;
+}
+.blog-section {
+  font-family: Google Sans, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  padding-bottom: 1.8%;
+}
+.blog-heading {
+  line-height: 1.36364;
+  font-size: 22px;
+  letter-spacing: 0;
+  padding-bottom: 1.8%;
+}
+.blog-image {
+  width: 99%;
+  border-radius: 3%;
+}
+.blog-article div:hover {
+  color: #414141;
+}
+
+.all-stories-heading {
+  margin-bottom: 6%;
+}
+.as-content {
+  flex: 1;
+  padding-right: 4.15198%;
+  border-top: 1px solid #d7d7d7;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.feed-article {
+  margin-bottom: 10px;
+  color: #414141;
+}
+.feed-article__title {
+  color: #414141;
+  font-family: Google Sans, Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+/* .all-stories section:hover {
+  color: black;
+} */
+
+.footer {
+  margin-top: 40px;
+  height: 150px;
+  background: #f8f9fa;
+}
+
+blockquote,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+p,
+pre,
+td,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
